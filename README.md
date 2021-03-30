@@ -7,6 +7,8 @@
 
 The initial version was developed by contributors at IBM in the summer of 2020, namely: Aakansha Agrawal, Khadija Al-Selini, Parisa Babaali, Boz Bosma, Kimberly Cassidy, Stephanie Daher, Michelle Esselen, Peter Ihlenfeldt, Abiola Jones, Rahul Kalluri, Joe Konathapally, Frank Madden, Henry Nash, Sharon Osahon, Colby Stone, Mark Sturdevant, Tanushree Paul, Bimsara Pilapitiya, Ya Jiao Zheng.
 
+The version located in kafellenzer's GitHub repository..... 
+
 ## Contents
 
 1. [Overview](#Overview)
