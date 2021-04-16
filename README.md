@@ -92,6 +92,7 @@ There is an administrative API interface that allows the site owners to curate t
 
 ## Our Proposition for Concrete5
 
+![new architecture diagram](/images/concrete5model.png)
 
 ## Video
 
