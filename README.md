@@ -94,6 +94,8 @@ There is an administrative API interface that allows the site owners to curate t
 
 ![new architecture diagram](/images/conceptualmodel.png)
 
+Our new proposed solution combines Concrete5 as the media server and MySQL satabase service to document and manage various legislative artifacts and the related metadata. As you can see in this diagram, there are additional RDMSs that Concrete5 has the ability to utilize, however, for our scope of this project we are not concerned with making sure they are implemented fully. 
+
 ## Video
 
 [![Video Call for Code for Racial Justice Solution Starter: Truth Loop ](https://img.youtube.com/vi/AgTUXp4G1Ms/0.jpg)](https://www.youtube.com/watch?v=AgTUXp4G1Ms)
