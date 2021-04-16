@@ -21,14 +21,15 @@ Throughout this README document, the original Truth Loop documentation will be r
    1. [What's the Problem?](#whats-the-problem)
    1. [How can technology help?](#how-can-technology-help)
 1. [The Idea](#the-idea)
-1. [Diagrams](#Diagrams)
-1. [Video](#Video)
-1. [Technologies](#Technologies)
-1. [Getting Started](#Getting-started-by-installing-and-running-the-components)
-1. [Docker](#Running-on-Docker)
-1. [Resources](#Resources)
-1. [License](#License)
-1. [Contributing and Developer information](#Contributing-and-Developer-information)
+1. [Previous Design and Diagrams](#Previous Design and Diagrams)
+2. [Our Proposition for Concrete5](#Our Proposition for Concrete5)
+3. [Video](#Video)
+4. [Technologies](#Technologies)
+5. [Getting Started](#Getting-started-by-installing-and-running-the-components)
+6. [Docker](#Running-on-Docker)
+7. [Resources](#Resources)
+8. [License](#License)
+9. [Contributing and Developer information](#Contributing-and-Developer-information)
     1. [Future Enhancements to the Solution](#future-enhancements-to-the-solution)
     1. [Privacy Considerations](#Privacy-Considerations)
 
@@ -67,7 +68,7 @@ their legal awareness and allowing them to communicate their reactions and thoug
 video testimonials.  These testimonials are then shared with the community and those
 responsible for the creation of the PR&L.
 
-## Diagrams
+## Previous Design and Diagrams
 
 ![architecture diagram](/images/high-level-architecture-diagram.png)
 
@@ -88,6 +89,9 @@ There is an administrative API interface that allows the site owners to curate t
 - related advocacy groups or digital social communities
 - related articles or supporting documentation
 - a link to the full text of the PR&L
+
+## Our Proposition for Concrete5
+
 
 ## Video
 
