@@ -12,8 +12,8 @@ The initial version was developed by contributors at IBM in the summer of 2020, 
 The forked version of Truth Loop located in this GitHub repository was made to restructure the content management system (CMS). Currently, Truth Loop utilizes both Watson Media as its CMS and PostgreSQL as the relational database management server (RDMS). Both of these require a subscription to utilize which could limit its availability to the public. Our goal is to replace these servers with a CMS and RDMS that are free to use. At the moment, the best option that we have found is [Concrete5](https://www.concrete5.org/about/feature-index). Not only is it a cheaper option, but also Concrete5 requires a MySQL (with PHP data object extensions) RDMS. This also partly addresses issues brought up concerning expanding support of multiple RDMSs. 
 
 Throughout this README document, the original Truth Loop documentation will be replaced in areas where our contributors have adjusted specific aspects. Any questions or concerns can be addressed by the following contributors:
-	- Escher Campanella at campae@rpi.edu 
-	- Kelly Fellenzer at fellek@rpi.edu
+- Escher Campanella at campae@rpi.edu 
+- Kelly Fellenzer at fellek@rpi.edu
 
 ## Contents
 
