@@ -121,29 +121,18 @@ Our new proposed solution combines Concrete5 as the media server and MySQL satab
 
 ### Steps
 
-1. [Provision a PostgreSQL instance on the IBM Cloud](#1-Provision-a-PostgreSQL-instance).
-1. [If you want to use the video services, provision an instance of Watson Media](#2-Set-up-an-instance-of-Watson-Media).
+1. [Provision a MySQL instance on the IBM Cloud](#1-Provision-a-MySQL-instance).
+1. [If you want to use the video services, provision an instance of Concrete5](#2-Set-up-an-instance-of-Concrete5).
 1. [Configuring and run the server](#3-Configuring-and-running-the-server).
 1. [Configuring and run the client application](#4-Configuring-and-running-the-client-application).
 
-### 1: Provision a PostgreSQL instance
+### 1: Provision a MySQL instance
 
-The server requires an RDMS server and currently only supports PostgreSQL. You can deploy this in the IBM Cloud by logging into the IBM Cloud and provisioning a [Postgres instance](https://cloud.ibm.com/catalog/services/databases-for-postgresql). Note that this does require a paid plan,  however if you have just signed up for a new IBM Cloud account, you will have received cloud credits, which would cover this for a significant time.
 
-1. Choose your Databases for Postgres plan. You should choose an appropriate region, give the service a name. You can leave the other settings with their defaults. Click the blue **Create** button when ready.
-1. Once your Postgres instance has been created, you need to create a service credential that the API Server can use to communicate with it. By selecting your running Postgres instance, you can choose **Service credentials** from the left menu. Create a new service credential and give it a name (it doesn't matter what you call it).
-1. Once created, you can display the credentials by selecting **view service credentials**, and then copying the credential, so you are ready to paste parts of it into the environment file of the API server in [Step 3](#3-Configuring-and-running-the-server).
 
-Alternatively, you could deploy your own PostgreSQL instance locally, in a remote VM, or container. In this case, ensure you obtain the equivalent credentials to those described above for [Step 3](#3-Configuring-and-running-the-server).
+### 2. Set up an instance of Concrete5
 
-### 2. Set up an instance of Watson Media
 
-Log in to IBM Cloud and provision a Watson Media instance.
-
-1. Provision an instance of Watson Media [IBM Watson Media](https://www.ibm.com/products/video-streaming/pricing). You can use the 30 day free-trial to start.
-1. Once your Watson Media instance has launched, go to the **API/SDK access** item, under the **Integration & Apps** item, in the left menu.
-1. Create a new credential. You will need to enter an Application Name (you can choose anything) and a Redirect URL. This URL needs to be the prefix of the URL you will run the server on, e.g. <http://localhost>. Make note of the `client id` and `client secret`, since you will need these in [Step 3](#3-Configuring-and-running-the-server).
-1. Generate a device username and password to be used by your server, by going to the **Device passwords** in the **Integration & Apps** menu. Give your device any name you choose, and then click **Create password**. Make a note of the username and password that are generated, since you will need these in [Step 3](#3-Configuring-and-running-the-server).
 
 ### 3. Configuring and running the server
 
