@@ -126,9 +126,17 @@ Our new proposed solution combines Concrete5 as the media server and MySQL satab
 1. [Configuring and run the server](#3-Configuring-and-running-the-server).
 1. [Configuring and run the client application](#4-Configuring-and-running-the-client-application).
 
-### 1: Provision a MySQL instance
+### 1: Deploy a MySQL database
 
+#### Using the IBM Cloud:
 
+You can deploy this in the IBM Cloud by logging into to IBM Cloud and Composing a [MySQL database](https://cloud.ibm.com/catalog/services/compose-for-mysql). Note that this does requre a paid plan, however if you have just signed up for a new IBM CLoud account, you will have received cloud credits, which would gover this for some time.
+
+#### Deploying locally:
+
+Alternatively, you could set up your own MySQL database locally. MySQL Community is the feely downloadable version of MySQL. It is available under the GPL license and is supported by a huge and active community of open source developers. To view the options for dowloading the MySQL community software, visit the link [here](https://dev.mysql.com/downloads/), and to read about what the software can provide, visit the link [here](https://www.mysql.com/products/community/).
+
+Before you start downloading this, you'll have to make an account on Oracle [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=mysql&nexturl=https%3A%2F%2Floginmysql.oracle.com%2Fauth%2Fslogin%2F%3Ftoken%3D525445df6TGdjgS11krEZSv3QAQBtPscvigiIfq0s3dD_VnekvT8wdu1nXgyQ4uLUjKK_DXhwJVxGAbFmAOF97YX8T8OBcY4z9LAm-owcMMT8ItR8Do4cyvanD9A4GzugMIlBXeiFM28s8vVsWAVaEv5uggeRkqq762wYnjFDov5iAEmCKGulXf6o1NPYzUaLzCFbVQOmlVN28naEO7Q8HFuNLVaWiEGYHunHQjvp1zK8K3scs8.).
 
 ### 2. Set up an instance of Concrete5
 
